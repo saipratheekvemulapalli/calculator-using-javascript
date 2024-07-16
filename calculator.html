@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="icon" href="calculator.png">
+    
+</head>
+<body>
+    <script src="calculator.js"></script>
+    <div class="parent" id="parent">
+    <div class="space" id="space">0</div>
+    <div class="row-1" id="row-1">
+        <span class="sin" id="sin"><button class="sin-button" id="sin-button" onclick="sin()">Sin </button></span>
+        <span class="one" id="one"><button class="button-1" id="button-1" onclick="keystroke(1)"> 1</button></span>
+        <span class="two" id="two"><button class="button-2" id="button-2" onclick="keystroke(2)"> 2</button></span>
+        <span class="three" id="three"><button class="button-3" id="button-3" onclick="keystroke(3)"> 3</button></span>
+        <span class="plus" id="plus"><button class="button-plus" id="button-plus"  onclick="keystroke('+')"> +</button></span>
+    </div>
+    <div class="row-2" id="row-2">
+        <span class="cos" id="cos"><button class="cos-button" id="cos-button" onclick="cos()">cos </button></span>
+        <span class="four" id="four"><button class="button-4" id="button-4" onclick="keystroke(4)"> 4</button></span>
+        <span class="five" id="five"><button class="button-5" id="button-5" onclick="keystroke(5)"> 5</button></span>
+        <span class="six" id="six"><button class="button-6" id="button-6" onclick="keystroke(6)"> 6</button></span>
+        <span class="minus" id="minus"><button class="button-minus" id="button-minus" onclick="keystroke('-')"> -</button></span>
+    </div>
+    <div class="row-3" id="row-3">
+        <span class="tan" id="tan"><button class="tan-button" id="tan-button" onclick="tan()">tan </button></span>
+        <span class="seven" id="seven"><button class="button-7" id="button-7" onclick="keystroke(7)"> 7</button></span>
+        <span class="eight" id="eight"><button class="button-8" id="button-8" onclick="keystroke(8)"> 8</button></span>
+        <span class="nine" id="nine"><button class="button-9" id="button-9" onclick="keystroke(9)"> 9</button></span>
+        <span class="multiply" id="multiply"><button class="button-multiply" id="button-multiply" onclick="keystroke('*')"> *</button></span>
+    </div>
+    <div class="row-4" id="row-4">
+        <span class="sec" id="sec"><button class="sec-button" id="sec-button" onclick="sec()">sec </button></span>
+        <span class="zero" id="zero"><button class="button-0" id="button-0" onclick="keystroke(0)"> 0</button></span>
+        <span class="dot" id="dot"><button class="button-dot" id="button-dot" onclick="keystroke('.')">.</button></span>
+        <span class="equalto" id="equalto"><button class="button-equalto" id="button-equalto" onclick="equalto()"> =</button></span>
+        <span class="division" id="division"><button class="button-division" id="button-division" onclick="keystroke('/')"> / </button></span>
+    </div>
+    <div class="row-5" id="row-5">
+        <span class="cosec" id="cosec"><button class="cosec-button" id="cosec-button" onclick="cosec()">cosec </button></span>
+        <span class="cot" id="cot"><button class="cot-button" id="cot-button" onclick="cot()">cot </button></span>
+        <span class="square" id="square"><button class="button-square" id="button-square" onclick="square()">square</button></span>
+        <span class="clear" id="clear"><button class="button-clear" id="button-clear" onclick="clearfunc()">clear</button></span>
+        <span class="back" id="back"><button class="back-button" id="back-button" onclick="back()">&#8592 </button></span>
+        
+       
+    </div>
+    
+</div>
+
+
+    
+    
+</body>
+</html>
