@@ -1,6 +1,7 @@
 # JavaScript Calculator
 
 A simple and interactive calculator built using JavaScript, HTML, and CSS. This project demonstrates basic arithmetic operations and a user-friendly interface.
+
 [click here](https://saipratheekvemulapalli.github.io/calculator-using-javascript/)
 
 ## Features
